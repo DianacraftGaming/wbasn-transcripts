@@ -2,36 +2,22 @@
 layout: page_default
 ---
 
-# SNARP'S TODO
+# DIANA'S TODO
+* General design
+** Find all css and modify it to be more simmilar to wbasn website
 
-* EPUB ebook:
+* Folders
+** _data has season info and links, I need to update it to reflect witherburn correctly
+** _defunct
+** _drafts and _layouts basically have templates, I won't likely need to modify them much
+** Episodes info is in _posts folder
+** _news contains website updates
+** _sass seems to cantain all the css (there is a homestuck file, seems like you truly can't fight the homestuck)
+** _assets has the epub book, and we don't have it here yet so uhm ehm aeaeae
+** css has... more css, how unexpected
+** js doesn't seem to make modifications
 
-    - Add specials to end of eBook.
-
-    - Add sources to eBook.
-
-    - Clean up and upload eBook generation script.
-  
-    - EPUB generator script currently fails to build internal links within transcripts correctly. (Ex: Link to MAG-081 from MAG-195; link to "Volume of a Cone" meme from MAG-140.) Links come out looking like:
-
-        `<a href="{{site.baseurl}}/assets/images/pythagoreumtheorummeme.jpg">Pythagorean theorem, volume of a cone</a>`
-
-        ...as in, with the uninterpreted curly-brace template code in there.
-
-    - Incorporate `epub:type=footnote` and `=noteref` into footnotes? <http://kb.daisy.org/publishing/docs/html/epub-type.html>
-
-* Make next/prev links on News posts smaller (or `yyyy-mm-dd` strings non-breaking) on mobile.
-
-* Page with short explanation of how to submit corrections via Github or email.
-
-    - Then add "Suggest a correction" link at bottom of transcript pages.
-
-* Make trailer/special/incomplete permalinks saner.
-
-* <del>Fix Markdown links on special episodes - currently (2021-03-04) they lead to nonexistent Github URLs like <https://github.com/Snarp/magnus_archives_transcripts/blob/master/_posts/2018-04-19-100.2.md></del>
-
-* <del>Turn top menu "Search" and "Ebook" links into icons on mobile / narrow displays.</del> DONE
-
-* <del>Become official</del> DONE
-
-* <del>Add Dark Mode and localStorage ("cookie") warning for Dark Mode</del> DONE
+* TODO FOR TODOS
+** Check _defunct and _includes
+** Find how content is placed on the pages to see if it needs any modifications due to a different amount of episodes
+** Play around with the files outside of the folder to see what they do
